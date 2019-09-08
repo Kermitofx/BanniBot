@@ -12,7 +12,7 @@ URL = "https://api.telegram.org/bot{}/".format(TOKEN)
 
 class Bot:
     def __init__(self, token):
-        self.token = token
+        self.token = 956323132:AAHJXDVL3jMmZrsYvcEG_wlxoJ2Fxz1C8tw
         self.api_url = "https://api.telegram.org/bot{}/".format(token)
 
     def get_updates(self, offset=None, timeout=30):
